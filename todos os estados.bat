@@ -22,3 +22,12 @@ md "Mato Grosso"
 md "Mato Grosso do Sul"
 md "Distrito Federal"
 cd ..
+cd "Norte"
+md "Acre"
+md "Amapa"
+md "Amazonas"
+md "Para"
+md "Rondonia"
+md "Roraima"
+md "Tocantins"
+cd ..
