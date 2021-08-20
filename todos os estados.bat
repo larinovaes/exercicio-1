@@ -16,3 +16,9 @@ md "Piaui"
 md "Rio Grande do Norte"
 md "Sergipe"
 cd ..
+cd "centro oeste"
+md "Goias"
+md "Mato Grosso"
+md "Mato Grosso do Sul"
+md "Distrito Federal"
+cd ..
