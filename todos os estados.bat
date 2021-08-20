@@ -1,2 +1,7 @@
 md "Todos os estados"
 cd "Todos os estados"
+md "Nordeste" 
+md "centro oeste"
+md "Norte"
+md "Sudeste"
+md "Sul"
