@@ -7,6 +7,7 @@ public class exercicio4Aula6 {
         /* Faça um programa que leia n números inteiros positivos e calcule a soma desses números.*/
 
         Scanner leitor = new Scanner(System.in);
+
         int contador = 1;
         double somaDosNumeros = 0;
         double numerosDigitados = 0;
@@ -21,8 +22,7 @@ public class exercicio4Aula6 {
             contador++;
 
         }
-        System.out.println("A soma dos numeros é:" );
-
+        System.out.println("A soma dos numeros é igual a: " +numerosDigitados);
 
     }
 }
