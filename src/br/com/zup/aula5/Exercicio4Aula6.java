@@ -2,10 +2,13 @@ package br.com.zup.aula5;
 
 import java.util.Scanner;
 
-public class exercicio4Aula6 {
-    public static void main(String[] args) {
-        /* Faça um programa que leia n números inteiros positivos e calcule a soma desses números.*/
+/**
+ * Faça um programa que leia n números inteiros positivos e calcule a soma desses números.
+ */
+public class Exercicio4Aula6 {
 
+
+    public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
         int contador = 1;
