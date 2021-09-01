@@ -9,20 +9,18 @@ public class exercicio4Aula6 {
         Scanner leitor = new Scanner(System.in);
 
         int contador = 1;
-        double somaDosNumeros = 0;
         double numerosDigitados = 0;
 
         System.out.println("Digite quantidade de numeros que deseja Calcular");
         double qtdDeNumeros = leitor.nextInt();
-        somaDosNumeros = numerosDigitados;
 
         while (contador <= qtdDeNumeros){
-            System.out.println("Digite seu numero " +contador+ " :");
-            numerosDigitados = leitor.nextDouble();
+            System.out.println("Digite seu numero " + contador + " :");
+            numerosDigitados += leitor.nextDouble();
             contador++;
-
         }
-        System.out.println("A soma dos numeros é igual a: " +numerosDigitados);
+
+        System.out.println("A soma dos numeros é igual a: " + numerosDigitados);
 
     }
 }
