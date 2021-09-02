@@ -18,9 +18,11 @@ public class Exercicio4 {
         System.out.println("Digite o número que deseja saber se é primo:");
         int numeroDigitadoPorUsuario = leitor.nextInt();
 
-        if (numeroDigitadoPorUsuario % 1 == 0 && numeroDigitadoPorUsuario % numeroDigitadoPorUsuario == 0){
+        if (numeroDigitadoPorUsuario % 2 == 0){
             numeroPrimo++;
-            System.out.println("Esse número é primo");
+            System.out.println("Esse numero não é Primo" +numeroPrimo);
+        }else {
+            System.out.println("Esse numero é primo " );
         }
     }
 }
