@@ -14,15 +14,15 @@ public class Exercicio5 {
 
         System.out.println("Escolha 5 numeros para saber qual é o maior");
 
-        while (contador <= 5){
-            System.out.println("Digite o "+contador+ " :");
+        while (contador <= 5) {
+            System.out.println("Digite o " + contador + " :");
             double numeroDoUsuario = leitor.nextDouble();
             contador++;
 
-            if (numeroDoUsuario > maiorValor){
+            if (numeroDoUsuario > maiorValor) {
                 maiorValor = numeroDoUsuario;
             }
         }
-        System.out.println("Maior valor é igual a " +maiorValor);
+        System.out.println("Maior valor é igual a " + maiorValor);
     }
 }
